@@ -13,11 +13,12 @@ HTML, CSS, Javascrip, PHP, MySQL, PHPMailer.
 # Features
 
 - Role Based Authentication: Admin and Client (Register, Login, Logout)
+- Form Validation
 - Event Search and filtering based on date and availability
 - Event Booking
+- Payment Page
 - Email Sending to Client, to get reservation details
 - Additional Catering Services such as food and drinks
-- Form Validation
 - Reservation Amendments
 - Reservation Cancellation
 - Royality Levels for customers. Depending on their number of bookings, they can get discounts.
