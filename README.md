@@ -17,6 +17,7 @@ HTML, CSS, Javascrip, PHP, MySQL, PHPMailer.
 - Event Booking
 - Email Sending to Client, to get reservation details
 - Additional Catering Services such as food and drinks
+- Form Validation
 - Reservation Amendments
 - Reservation Cancellation
 - Royality Levels for customers. Depending on their number of bookings, they can get discounts.
