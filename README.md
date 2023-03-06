@@ -12,7 +12,7 @@ HTML, CSS, Javascrip, PHP, MySQL, PHPMailer.
 
 # Features
 
-- Role Based Authentication: Admin and Client (Sign in, Sign up, Register)
+- Role Based Authentication: Admin and Client (Register, Sign in, Sign up, Sign out)
 - Event Search and filtering based on date and availability
 - Event Booking
 - Email Sending to Client, to get reservation details
