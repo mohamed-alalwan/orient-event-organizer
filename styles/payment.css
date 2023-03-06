@@ -1,0 +1,142 @@
+/* Author: Mohamed Alalwan 201601446*/
+
+body {
+  padding: 60px 0;
+  background-color: #583010;
+  background: url(../images/Backgrounds/background-3.jpg) no-repeat center center fixed;
+  background-size: cover;
+  margin: 0 auto;
+  width: 600px;
+  font-family:  'Open Sans', sans-serif, 'Courier New', Courier, monospace;
+}
+.body-text {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: wheat;
+  text-align: center;
+  line-height: 1.2em;
+  text-align: justify;
+  background-color: rgba(0, 0, 0, 0.25);
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+.form-container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-wrapper {
+  width: 100%;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.personal-information {
+  background-color: rgb(245, 222, 179, 0.2);
+  color: wheat;
+  padding: 1px 0;
+  text-align: center;
+  border-radius: 20px 20px 0 0;
+}
+h1 {
+  font-size: 1.3em;
+  text-shadow: 1px 1px black;
+}
+input {
+  margin: 1px 0;
+  padding-left: 3%;
+  font-size: 14px;
+  background-color: rgba(0, 0, 0, 0.25);
+  color: wheat;
+}
+
+input::placeholder{
+  color: rgba(245, 222, 179, 0.5);
+}
+input[type="text"]{
+  display: block;
+  height: 50px;
+  width: 96.7%;
+  border: none;
+}
+input[type="email"]{
+  display: block;
+  height: 50px;
+  width: 96.7%;
+  border: none;
+}
+input[type="submit"]{
+  display: block;
+  height: 60px;
+  width: 100%;
+  border: none;
+  background-color: rgb(245, 222, 179, 0.2);
+  color: wheat;
+  margin-top: 2px;
+  cursor: pointer;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0 0 20px 20px;
+}
+input[type="submit"]:hover{
+  background-color: rgba(245, 222, 179, 0.371);
+  transition: 0.3s ease;
+}
+#column-left {
+  width: 46.5%;
+  float: left;
+  margin-bottom: 2px;
+}
+#column-right {
+  width: 46.5%;
+  float: right;
+}
+.error{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 0, 0, 0.25);
+  margin: 5px 50px 0px 50px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 480px){
+  body {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .form-container {
+    margin: 0 2%;
+  }
+  input {
+    font-size: 1em;
+  }
+  #input-button {
+    width: 100%;
+  }
+  #input-field {
+    width: 96.5%;
+  }
+  h1 {
+    font-size: 1.2em;
+  }
+  input {
+    margin: 2px 0;
+  }
+  input[type="submit"]{
+    height: 50px;
+  }
+  #column-left {
+    width: 96.5%;
+    display: block;
+    float: none;
+  }
+  #column-right {
+    width: 96.5%;
+    display: block;
+    float: none;
+  }
+  .error{
+    font-size: 10px;
+  }
+}
