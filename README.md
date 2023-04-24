@@ -24,6 +24,12 @@ HTML, CSS, Javascrip, PHP, MySQL, PHPMailer.
 - Royality Levels for customers. Depending on their number of bookings, they can get discounts.
 - Admins can manage users, services, locations and images.
 - Admins can generate reports for monthly reservations and user memberships.
+- Notifications and Preserving pending order.
+
+# Project Usage
+To use this project and make work for own usage, you need to do few things:
+  1- Modify your own Database Connection String in the config/db_connect.php file.
+  2- Modify the PHPMailer email and credentials in the reservationConfirm.php file (sendEmail Function) according to your needs.
 
 # Developed By
 
