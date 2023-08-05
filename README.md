@@ -3,8 +3,12 @@
 Event Management Website, Offers Rooms, Halls and Services to clients that want to book their events for their customers. I made this project as part of my studies in Bahrain Polytechnic.
 
 # Link to Website
-
 http://orient-event-organizer.epizy.com/
+
+I realize that it might be taken down due to inactivity.
+
+Check the PDF file for an overview instead: <a href="https://firebasestorage.googleapis.com/v0/b/my-portfolio-react-2023.appspot.com/o/ak9LuhPNJIfegqnQiUTs%2Ffiles%2Ftest_plan_201601446.pdf?alt=media&token=1d9c8a14-178e-4c25-8b60-47f61f522c48">Link</a>
+
 
 # Technologies
 
