@@ -11,7 +11,7 @@ Website Link: http://orient-event-organizer.epizy.com/
 
 # Technologies
 
-HTML, CSS, Javascrip, PHP, MySQL, PHPMailer.
+HTML, CSS, Javascript, PHP, MySQL, PHPMailer.
 
 # Features
 
